@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: rgb(9, 9, 48);
+    color: beige;
+    font-size: 1.4rem;
+    height: 105px;
+    text-align: center;
+    align-content: center;
+}
+
+.selection {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6AD4DD;
+    margin: 0px 0 0 0;
+}
+
+.choices {
+    font-size: 5.5rem;
+    background-color: #F8F6E3;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.choices:hover {
+    background-color: #11235A;
+    color: beige;
+    cursor: pointer;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    gap: 5rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.msg-container {
+    margin-top: 3rem;
+    background-color: rgb(9, 9, 48);
+    color: beige;
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px;
+}
